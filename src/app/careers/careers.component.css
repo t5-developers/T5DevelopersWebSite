@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+    color: black;
+}
+
+ul li:before {
+    content: '✓ ';
+    color: gold;
+}
+
+.text-divider {
+    margin: 2em 0;
+    line-height: 0;
+    text-align: center;
+}
+
+.text-divider:before {
+    content: " ";
+    display: block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid #f7f7f7;
+}

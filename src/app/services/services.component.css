@@ -1,0 +1,51 @@
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+element.style {
+    visibility: visible;
+    animation-duration: 1.4s;
+    animation-name: bounceInUp;
+}
+
+.bounceInUp {
+    -webkit-animation-name: bounceInUp;
+    animation-name: bounceInUp;
+}
+
+.box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px 0px 10px;
+    background: #fff;
+    /* box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1); */
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.icon {
+    margin: 0 auto 15px auto;
+    padding-top: 12px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #C08F29;
+}
+
+.icon i {
+    font-size: 36px;
+    line-height: 1;
+}
+
+p {
+    color: black;
+}
+
+.clrP {
+    color: black;
+}

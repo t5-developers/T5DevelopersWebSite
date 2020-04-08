@@ -1,0 +1,81 @@
+<app-header></app-header>
+<div class="container">
+    <div class="text-center margin-bottom-50">
+        <h2 class="title-v2 title-center">OUR SERVICES</h2>
+        <p class="clrP">Our technical expertise is centered on Microsoft, Open Source, mobile applications and other technologies such as Cloud, IoT and client side development platforms.We offer industry best practices in application development, system architecture
+            and technology solutions. </p>
+    </div>
+    <div class="row">
+        <div class="card-deck">
+            <div class="card">
+                <div class="box">
+                    <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+                    <h3 class="title">Cloud Solutions</h3>
+                    <p class="description">Our Cloud Technology Solutions are surrounded with positive, friendly and ambitious people who have a passion for cloud solutions and technologies. This passion has helped us to attain a trustable space in cloud-based services among
+                        our clients.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col-sm-4 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+                <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+                <h3 class="title">Cloud Solutions</h3>
+                <p class="description">Our Cloud Technology Solutions are surrounded with positive, friendly and ambitious people who have a passion for cloud solutions and technologies. This passion has helped us to attain a trustable space in cloud-based services among our
+                    clients.
+                </p>
+            </div>
+        </div> -->
+        <div class="col-sm-4 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+                <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+                <h3 class="title">Development</h3>
+                <p class="description">T5Developers helps your organization stay on the cutting edge by developing robust applications that are secure, scalable and easily maintainable. Most customers demands custom solutions to support their individual business needs.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-sm-4 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+                <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+                <h3 class="title">Consulting Services</h3>
+                <p class="description">Organizations face the serious challenge of outperforming recruitment requirements while managing process efficiency. We provide people outsourcing solutions, incorporating speed, accuracy, flexibility and accountability through a team
+                    with expertise and focus on each specific process.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-sm-4 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+                <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+                <h3 class="title">Application Support &amp; Maintenance</h3>
+                <p class="description">To remain competitive, organizations need to ensure that their applications are working effectively and efficiently, supporting all their unique business requirements. We offers a full range of application maintenance and support services
+                    to ensure business continuity and long-term value.
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-4 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+                <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+                <h3 class="title">Mobile application development</h3>
+                <p class="description">Our mobile app developers and experts can help you add immense value to your business and implement seamless communication and customization by developing Apps for the customer needs.
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-4 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+                <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+                <h3 class="title">Enterprise application integration</h3>
+                <p class="description">Our Integration experts work with our clients to get the best value from Enterprise Applications. We design solutions to our clients that can adopt changing demands, robust enough to sustain business critical processes and standardized
+                    enough to leverage your scale.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+<app-footer></app-footer>

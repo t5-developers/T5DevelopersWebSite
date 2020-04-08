@@ -1,0 +1,10 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+    /* remove extra space below image */
+    object-fit: cover;
+}
+
+.box {
+    width: 200px;
+}
