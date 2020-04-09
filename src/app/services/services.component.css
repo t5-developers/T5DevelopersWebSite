@@ -1,6 +1,18 @@
-div {
+/* div {
     text-align: justify;
     text-justify: inter-word;
+} */
+
+.icon-box.left {
+    text-align: left;
+}
+
+.icon-box i {
+    display: inline-block;
+    font-size: 40px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 element.style {
@@ -48,4 +60,9 @@ p {
 
 .clrP {
     color: black;
+}
+
+.icon-box.left a {
+    margin-right: 30px;
+    padding: 0;
 }
