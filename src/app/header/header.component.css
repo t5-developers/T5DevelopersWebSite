@@ -109,6 +109,32 @@ a {
     margin-bottom: 40px;
 }
 
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+    display: block;
+}
+
+.carousel-item {
+    height: 0vh !important;
+    width: 100vh !important;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* 
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+    
+    color: #002E5A;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+} */
+
 .no-border {
     border: none !important;
 }
@@ -222,7 +248,7 @@ address,
 table,
 fieldset,
 form {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .diamond-line-centered-theme-colored2::after {

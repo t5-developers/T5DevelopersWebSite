@@ -46,8 +46,7 @@ export class FooterComponent implements OnInit {
 
   ngOnInit() {
     this.date = new Date().getFullYear()
-    this.imagesUrl = ['assets/img/clientlogo/fatcow.png', 'assets/img/clientlogo/car.png', 'assets/img/clientlogo/gsem.jpeg',
-      'assets/img/clientlogo/sheeba.png', 'assets/img/clientlogo/we.png'];
+    this.imagesUrl = ['assets/img/clientlogo/penoply_logo.jpg','assets/img/clientlogo/we.png'];
 
     if (this.autoRotate) {
       const source = interval(this.autoRotateAfter);
