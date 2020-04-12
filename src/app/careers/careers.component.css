@@ -5,7 +5,8 @@ ul {
 
 ul li:before {
     content: '✓ ';
-    color: gold;
+    color: orange;
+    font-weight: 600;
 }
 
 .text-divider {

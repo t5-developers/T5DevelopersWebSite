@@ -120,3 +120,13 @@ h2 {
     background: #fff;
     margin-bottom: 30px;
 }
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #C08F29;
+}

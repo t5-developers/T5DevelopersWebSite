@@ -15,6 +15,16 @@
     transition: all 0.3s ease;
 }
 
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #C08F29;
+}
+
 element.style {
     visibility: visible;
     animation-duration: 1.4s;
@@ -56,6 +66,7 @@ element.style {
 
 p {
     color: black;
+    text-align: justify;
 }
 
 .clrP {
@@ -65,4 +76,17 @@ p {
 .icon-box.left a {
     margin-right: 30px;
     padding: 0;
+}
+
+.iconbox.left a {
+    margin-right: 50px;
+    padding: 0;
+}
+
+.ml-2 {
+    margin-left: -2% !important;
+}
+
+.mls-2 {
+    margin-left: 2% !important;
 }

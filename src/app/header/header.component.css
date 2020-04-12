@@ -54,6 +54,14 @@ ul#menu li {
     background-color: #002E5A;
 }
 
+.m-t4 {
+    margin-top: 5%;
+}
+
+.fontSize {
+    font-size: larger;
+}
+
 a {
     color: #C08F29;
     text-decoration: none;

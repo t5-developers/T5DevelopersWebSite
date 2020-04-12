@@ -23,9 +23,47 @@ div {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color: #C08F29;
+}
+
+.fontcolor {
+    color: orange !important;
+}
+
+.fontcolorp {
+    color: white !important;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: black;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.custFont {
+    font-family: auto;
 }
 
 ul {
     list-style: none;
     color: black;
+}
+
+.text-divider:before {
+    content: " ";
+    display: block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.text-divider {
+    margin: 1em 0;
+    line-height: 0;
+    text-align: center;
 }
