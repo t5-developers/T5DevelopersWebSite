@@ -24,6 +24,7 @@
     "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
+    "npm": "^6.14.4",
     "owl.carousel": "^2.3.4",
     "rxjs": "~6.4.0",
     "tslib": "^1.11.1",
