@@ -14,21 +14,6 @@
           "destination": "/index.html"
         }
       ]
-    },
-    {
-      "target": "hotel",
-      "public": "dist/hotel",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ]
     }
   ]
 }
