@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "t5-devs-fire"
+  },
+  "targets": {
+    "t5-devs-fire": {
+      "hosting": {
+        "home": [
+          "t5-devs-fire"
+        ],
+        "hotel": [
+          "t5-hotel"
+        ]
+      }
+    }
   }
 }
